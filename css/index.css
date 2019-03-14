@@ -215,23 +215,36 @@ header {
   }} */
 @media(max-width: 800px) {
   .Nav_Header a {
-  margin-right:0;
-   margin-right:5%;
+    margin-right: 0;
+    margin-left: 15px;
     align-items:center;
+    margin-bottom:30px;
   }}
 @media(max-width: 800px) {
   h1 {
     justify-content:Center;
-    color:blue;
     margin-left: 50%;
   }
   .Top_header button {
-      width: 288px;
-    margin-left: 50%;
+    width: 175px;
+    margin-left: 60%;
   }
   .Header{
     text-align: center;
     margin-bottom:40px;
+  }
+  .top_nav_head{
+    flex-direction: column-reverse;
+    height:auto;
+    margin-top:0;
+  }
+  .Nav_Header{
+    display: flex;
+    justify-content:space-between;
+  }
+  .logo_top{
+    margin-top:30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -293,21 +306,42 @@ header {
     .top_nav_head {
         flex-direction: column-reverse;
         height: 150px;
+        margin-top:0;
+        height:auto;
     }
-
+    
     nav {
         display: flex;
         flex-direction: column;
         text-align: center;
         color: red;
-    }
-    a {
-        border-bottom: 2px solid black;
-        padding:30px;
         
     }
-    h1{
-        color: aqua;
+    .Nav_Header a{
+      font-size:30px;
+      margin-bottom:0;
+      margin-left:0;
+    }
+    nav a {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      border-bottom: 2px solid black;
+      font-size:1000px;
+    }
+    .first_link{
+      border-top: 2px solid black;
+    }
+    button {
+        max-width:200px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    .copyright{
+      margin-bottom:30px;
+    }
+    .Vision{
+      margin-bottom:20px;
     }
     }
    
